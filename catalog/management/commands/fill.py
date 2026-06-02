@@ -5,16 +5,14 @@ from catalog.models import Product, Category
 
 
 class Command(BaseCommand):
-    help = 'Заполняет базу тестовыми данными'
+    help = "Заполняет базу тестовыми данными"
 
     def handle(self, *args, **options):
 
         Product.objects.all().delete()
         Category.objects.all().delete()
 
-        call_command('loaddata', 'categories')
-        call_command('loaddata', 'products')
+        call_command("loaddata", "categories")
+        call_command("loaddata", "products")
 
-        self.stdout.write(
-            self.style.SUCCESS('База данных заполнена')
-        )
+        self.stdout.write(self.style.SUCCESS("База данных заполнена"))
