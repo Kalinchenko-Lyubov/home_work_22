@@ -1,0 +1,28 @@
+[
+{
+    "model": "catalog.product",
+    "pk": 3,
+    "fields": {
+        "name": "Макароны",
+        "description": "Макаронные изделия из твердых сортов пшеницы",
+        "image": "",
+        "category": 4,
+        "price": "150.00",
+        "created_at": "2026-06-02T08:17:38.627Z",
+        "updated_at": "2026-06-02T08:19:07.124Z"
+    }
+},
+{
+    "model": "catalog.product",
+    "pk": 5,
+    "fields": {
+        "name": "Средство для мытья посуды",
+        "description": "Жидкость для мытья посуды 500 мл",
+        "image": "",
+        "category": 6,
+        "price": "250.00",
+        "created_at": "2026-06-02T08:17:51.173Z",
+        "updated_at": "2026-06-02T08:17:51.173Z"
+    }
+}
+]
